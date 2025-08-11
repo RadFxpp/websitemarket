@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite Marker - Web Development, Social Media & Email Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Notification -->
+    <div id="notification" class="notification hidden">
+        <div class="notification-content">
+            <span class="notification-message"></span>
+            <button class="notification-close">&times;</button>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="/Untitled design (17).png" alt="">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#contact" class="nav-link nav-btn">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">We build your <br><span class="highlight">ONLINE PRECENSE</span></h1>
+                <p class="hero-description">We create tailored digital solutions that drive your business forward and position your brand for long-term success.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Start Your Project</a>
+                    <a href="#services" class="btn btn-secondary">View Services</a>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="about-graphic">
+                    <img src="img1.png" alt="">
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1>QPEDO</h1>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About us</h2>
+                <p class="section-subtitle">Meet the team that will bring your digital vision to life</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>We transform ideas into digital solutions</h3>
+                    <p>We are a New York-based technology startup specializing in web development, mobile applications, and cloud solutions for innovative businesses.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4 class="counter" data-target="30">0</h4>
+                            <p>Successful Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h4 class="counter" data-target="4">0</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h4>24/7</h4>
+                            <p>Tech Support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-graphic">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-code"></i>
+                            <span>Web Dev</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-share-alt"></i>
+                            <span>Social Media</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email Marketing</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive solutions for your digital presence</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>We create modern, responsive, and SEO-optimized websites. From landing pages to complex web applications.</p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>SEO Optimization</li>
+                        <li>E-commerce</li>
+                        <li>Custom CMS</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Request a Quote</a>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <h3>Social Media</h3>
+                    <p>We manage your social media with personalized strategies that increase engagement and conversions.</p>
+                    <ul class="service-features">
+                        <li>Content Management</li>
+                        <li>Paid Advertising</li>
+                        <li>Analytics & Reports</li>
+                        <li>Community Management</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Request a Quote</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-envelope-open-text"></i>
+                    </div>
+                    <h3>Email Marketing</h3>
+                    <p>Effective email marketing campaigns that nurture leads and turn subscribers into loyal customers.</p>
+                    <ul class="service-features">
+                        <li>Automation</li>
+                        <li>Segmentation</li>
+                        <li>A/B Testing</li>
+                        <li>Advanced Analytics</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Real testimonials from companies that trusted us</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"WebCraft Solutions completely transformed our online presence. The website they developed exceeded all our expectations, and sales increased by 300%."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"></div>
+                            <div class="author-info">
+                                <h4>María González</h4>
+                                <span>CEO, TechStart</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Their social media strategy helped us connect with our audience in an authentic way. Our engagement grew by 250% in just 3 months."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"></div>
+                            <div class="author-info">
+                                <h4>Carlos Ruiz</h4>
+                                <span>Marketing Director, FashionCorp</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The email marketing campaigns they designed generated a 400% ROI. Their team is professional, creative, and always meets deadlines."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"></div>
+                            <div class="author-info">
+                                <h4>Ana Martínez</h4>
+                                <span>Founder, EcoShop</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <button class="nav-dot active" data-slide="0"></button>
+                <button class="nav-dot" data-slide="1"></button>
+                <button class="nav-dot" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ready to Start Your Project?</h2>
+                <p class="section-subtitle">Contact us and get a free consultation</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Talk About Your Project</h3>
+                    <p>We are here to help you take your business to the next digital level. Contact us and discover how we can transform your online presence.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@webcraft-solutions.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Mexico City, Mexico</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Select a Service</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="social-media">Social Media</option>
+                            <option value="email-marketing">Email Marketing</option>
+                            <option value="all-services">All Services</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WebSite <span>Marker</span></h3>
+                    <p>We turn ideas into extraordinary digital experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#services">Desarrollo Web</a></li>
+                        <li><a href="#services">Social Media</a></li>
+                        <li><a href="#services">Email Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#testimonials">Testimonios</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 WebCraft Solutions. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
