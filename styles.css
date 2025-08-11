@@ -419,7 +419,7 @@ body {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #2563eb , #A0D3E8);
 }
 
 .service-card.featured {
@@ -439,7 +439,7 @@ body {
 .service-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #2563eb , #1e282c);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -484,7 +484,7 @@ body {
 }
 
 .service-btn {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #2563eb , #1e282c);
     color: white;
     padding: 0.75rem 1.5rem;
     border-radius: 25px;
@@ -601,7 +601,7 @@ body {
 /* Contact Section */
 .contact {
     padding: 6rem 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #005B8B 0%, #002B57 100%);
     color: white;
 }
 
